@@ -28,11 +28,11 @@ while [ $loop -le 3 ]
 	while [ $quality -gt 0 ]
 		do 
 
-		convert jgpg.jpg -scale 640x frames/jgpg_"$globalno".jpg
+		#convert jgpg.jpg -scale 640x frames/jgpg_"$globalno".jpg
 		
 		convert jgpg.jpg -quality "$quality" jgpg.jpg
 
-		echo "quality number is "$quality""
+		echo "days till Friday "$quality""
 
 		quality=$(($quality - 1))
 
