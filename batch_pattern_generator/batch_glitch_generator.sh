@@ -40,7 +40,7 @@ for file in *.jpg
 
 		done
 
-		convert jgpg.jpg -scale 150% jgpg.jpg
+		convert jgpg.jpg -scale 410% jgpg.jpg
 
 		loop=$(($loop - 1))
 
