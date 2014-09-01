@@ -32,7 +32,7 @@ for file in *.jpg
 
 			convert jgpg.jpg -quality "$quality" jgpg.jpg
 
-			echo "quality number is "$quality""
+			echo "days till Friday "$quality""
 
 			quality=$(($quality - 1))
 
